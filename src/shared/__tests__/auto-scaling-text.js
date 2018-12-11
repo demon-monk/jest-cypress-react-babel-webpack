@@ -5,5 +5,5 @@ import AutoScalingText from '../auto-scaling-text'
 
 test('renders', () => {
     const {container} = render(<AutoScalingText />)
-    expect(container).toMatchSnapshot()
+    expect(container.firstChild).toMatchSnapshot()
 })
