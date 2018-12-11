@@ -26,7 +26,7 @@ npm manifest:
       "start": "serve --no-clipboard --listen 8080 dist",
       "lint": "eslint .",
       "format": "prettier \"**/*.js\" --write",
-      "validate": "npm run lint && npm run build",
+      "validate": "npm run lint && npm run test && npm run build",
       "setup": "npm run setup && npm run validate",
       "test": "jest"
     },
@@ -41,6 +41,7 @@ npm manifest:
       "@babel/preset-env": "^7.0.0-beta.51",
       "@babel/preset-react": "^7.0.0-beta.51",
       "babel-core": "7.0.0-bridge.0",
+      "babel-jest": "^23.6.0",
       "babel-loader": "^8.0.0-beta.4",
       "babel-plugin-emotion": "^9.2.4",
       "css-loader": "^0.28.11",
