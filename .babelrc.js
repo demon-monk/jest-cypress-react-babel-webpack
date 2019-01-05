@@ -11,5 +11,6 @@ module.exports = {
     '@babel/plugin-proposal-class-properties',
     '@babel/plugin-proposal-object-rest-spread',
     'react-loadable/babel',
+    isTest && 'babel-plugin-dynamic-import-node',
   ].filter(Boolean),
 }
