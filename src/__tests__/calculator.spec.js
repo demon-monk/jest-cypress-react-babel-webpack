@@ -6,6 +6,5 @@ import Calculator from '../calculator'
 test('renders calculator', async () => {
     await loadable.preloadAll()
     const {container, debug} = render(<Calculator/>)
-    debug(container)
     expect(container.firstChild).toMatchSnapshot()
 })
