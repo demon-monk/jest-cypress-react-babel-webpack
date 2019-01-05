@@ -2,8 +2,6 @@
 
 exports[`renders calculator 1`] = `
 .emotion-0 {
-  color: white;
-  background: #1c191c;
   line-height: 130px;
   font-size: 6em;
   -webkit-flex: 1;
@@ -12,8 +10,6 @@ exports[`renders calculator 1`] = `
 }
 
 .emotion-0 {
-  color: white;
-  background: #1c191c;
   line-height: 130px;
   font-size: 6em;
   -webkit-flex: 1;
@@ -25,7 +21,7 @@ exports[`renders calculator 1`] = `
   class="calculator"
 >
   <div
-    class="emotion-0"
+    class="emotion-0 emotion-1"
   >
     <div
       class="autoScalingText"
