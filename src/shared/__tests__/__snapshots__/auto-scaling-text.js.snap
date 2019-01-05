@@ -4,7 +4,5 @@ exports[`renders 1`] = `
 <div
   class="autoScalingText"
   style="transform: scale(1,1);"
->
-  put extra text
-</div>
+/>
 `;

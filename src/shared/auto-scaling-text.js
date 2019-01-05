@@ -34,7 +34,6 @@ class AutoScalingText extends React.Component {
         ref={this.node}
       >
         {this.props.children}
-        put extra text
       </div>
     )
   }

@@ -29,7 +29,6 @@ exports[`renders calculator 1`] = `
     style="transform: scale(1,1);"
   >
     0
-    put extra text
   </div>
 </div>
 `;
