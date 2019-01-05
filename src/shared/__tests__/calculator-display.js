@@ -1,8 +1,8 @@
 import React from 'react'
 import Calculator from '../calculator-display'
-import { renderWithProviders } from '../../../test/calculator-test-utils';
+import { render } from 'calculator-test-utils';
 
 test('renders calculator',  () => {
-    const {container} = renderWithProviders(<Calculator value="0"/>)
+    const {container} = render(<Calculator value="0"/>)
     expect(container.firstChild).toMatchSnapshot()
 })
