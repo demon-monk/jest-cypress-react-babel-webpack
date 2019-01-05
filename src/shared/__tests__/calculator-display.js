@@ -1,14 +1,8 @@
 import React from 'react'
-import { render } from 'react-testing-library'
 import Calculator from '../calculator-display'
-import {ThemeProvider} from 'emotion-theming'
-import {dark} from '../../themes'
+import { renderWithProviders } from '../../../test/calculator-test-utils';
 
 test('renders calculator',  () => {
-    const {container} = render(
-        <ThemeProvider theme={dark}>
-            <Calculator value="0" />
-        </ThemeProvider>
-    )
+    const {container} = renderWithProviders(<Calculator value="0"/>)
     expect(container.firstChild).toMatchSnapshot()
 })
