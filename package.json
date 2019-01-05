@@ -47,10 +47,11 @@
   },
   "dependencies": {
     "@emotion/core": "^10.0.5",
+    "@emotion/styled": "^10.0.5",
     "emotion": "^10.0.4",
+    "emotion-theming": "^10.0.5",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-emotion": "^10.0.0",
     "react-loadable": "^5.4.0",
     "react-point": "^3.0.1"
   },
