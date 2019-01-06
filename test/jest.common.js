@@ -18,8 +18,6 @@ module.exports = {
     // testFiles: [],
     // after jest is loaded
     
-    collectCoverageFrom: ['**/src/**/*.js'],
-    
     watchPlugins: [
         'jest-watch-typeahead/filename',
         'jest-watch-typeahead/testname',
