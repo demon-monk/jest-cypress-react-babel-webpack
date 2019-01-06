@@ -12,7 +12,8 @@
     "format": "prettier \"**/*.js\" --write",
     "validate": "npm run lint && npm run test && npm run build",
     "setup": "npm run setup && npm run validate",
-    "test": "jest"
+    "test": "jest",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand"
   },
   "keywords": [],
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",

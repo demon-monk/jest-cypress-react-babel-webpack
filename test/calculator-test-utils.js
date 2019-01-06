@@ -5,7 +5,7 @@ import {dark} from '../src/themes'
 
 function renderWithProviders(ui, options) {
     return render(
-        <ThemeProvider theme={dark}>{ui}</ThemeProvider>
+        <ThemeProvider theme={(options && options.theme) || dark}>{ui}</ThemeProvider>
     )
 }
 
