@@ -10,5 +10,4 @@ install: npm install
 script: npm run validate
 branches:
   only: 
-    - master
-    - jest-*
+    - jest-zb
