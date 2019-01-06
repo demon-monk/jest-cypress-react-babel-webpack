@@ -18,5 +18,5 @@ module.exports = {
     // testFiles: [],
     // after jest is loaded
     setupTestFrameworkScriptFile: require.resolve('./test/setup-tests.js'),
-
+    collectCoverageFrom: ['**/src/**/*.js'],
 }
