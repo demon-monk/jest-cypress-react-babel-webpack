@@ -1,7 +1,7 @@
 import React from 'react'
 import {ThemeProvider} from 'emotion-theming'
 import Calculator from './calculator'
-import * as themes from './themes'
+import themes from './themes'
 
 class App extends React.Component {
   state = {theme: 'dark'}

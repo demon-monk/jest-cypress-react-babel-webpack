@@ -3,7 +3,9 @@ export const dark = {
     displayBackgroundColor: '#1c191c',
   }
   
-  export const light = {
-    displayTextColor: '#1c191c',
-    displayBackgroundColor: 'white',
-  }
+export const light = {
+  displayTextColor: '#1c191c',
+  displayBackgroundColor: 'white',
+}
+
+export default {dark, light}
