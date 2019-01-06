@@ -19,4 +19,18 @@ module.exports = {
     // after jest is loaded
     setupTestFrameworkScriptFile: require.resolve('./test/setup-tests.js'),
     collectCoverageFrom: ['**/src/**/*.js'],
+    coverageThreshold: {
+        global: {
+            statements: 20,
+            branches: 6,
+            lines: 20,
+            functions: 20,
+        },
+        './src/**/utils.js': {
+            statements: 100,
+            branches: 80,
+            lines: 100,
+            functions: 100,
+        }
+    }
 }
